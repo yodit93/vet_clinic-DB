@@ -96,7 +96,7 @@ You can deploy this project using: **Not available**.
 
 <!-- AUTHORS -->
 
-##👤 Yodit Abebe
+👤 Yodit Abebe
 
 - GitHub: [yodit93](https://github.com/yodit93)
 - Twitter: [@yodtwit](https://twitter.com/yodtwit)
