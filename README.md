@@ -71,11 +71,9 @@ In order to run this project you need: PostgreSQL or any other SQL database.
 ### Setup
 
 Clone this repository to your desired folder:
-  
-  ```sh
-    git clone 'https://github.com/yodit93/vet_clinic-DB.git'
-### Install
+git clone 'https://github.com/yodit93/vet_clinic-DB.git'
 
+### Install
 Install this project with: Install [PostgreSQL](https://www.postgresql.org/download/)
 
 #### Usage
@@ -98,7 +96,7 @@ You can deploy this project using: **Not available**.
 
 <!-- AUTHORS -->
 
-👤 Yodit Abebe
+##👤 Yodit Abebe
 
 - GitHub: [yodit93](https://github.com/yodit93)
 - Twitter: [@yodtwit](https://twitter.com/yodtwit)
