@@ -20,6 +20,9 @@ SELECT * FROM animals WHERE name != 'GAbumon';
 --Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
 SELECT * FROM animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
 
+--Add a new column to the animals table called species with the data type of varchar(100).
+ALTER TABLE animals ADD COLUMN species VARCHAR(100);
+
 --update the animals table by setting the species column to unspecified
 BEGIN;
 UPDATE animals SET species = 'unspecified';
@@ -63,4 +66,4 @@ SELECT neutered, count(*) AS escape_count FROM animals GROUP BY neutered;
 --What is the minimum and maximum weight of each type of animal?
 SELECT species, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight FROM animals GROUP BY species;
 --What is the average number of escape attempts per animal type of those born between 1990 and 2000?
-SELECT species, AVG(weight_kg) FROM animals WHERE EXTRACT(YEAR FROM date_of_birth) BETWEEN 1990 AND 2000 GROUP BY species;
+SELECT species, AVG(escape_attempts) FROM animals WHERE EXTRACT(YEAR FROM date_of_birth) BETWEEN 1990 AND 2000 GROUP BY species;
