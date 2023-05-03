@@ -44,8 +44,8 @@
 
 - **[Vet_clinic Database]**
 - **[animals table]**
-**[owners table]**
-**[species table]**
+- **[owners table]**
+- **[species table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
