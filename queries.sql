@@ -67,26 +67,6 @@ SELECT neutered, count(*) AS escape_count FROM animals GROUP BY neutered;
 SELECT species, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight FROM animals GROUP BY species;
 --What is the average number of escape attempts per animal type of those born between 1990 and 2000?
 SELECT species, AVG(escape_attempts) FROM animals WHERE EXTRACT(YEAR FROM date_of_birth) BETWEEN 1990 AND 2000 GROUP BY species;
-
---Modify animals table
-
---Remove the species column from the animals table.
-ALTER TABLE animals DROP COLUMN species;
---Add column species_id which is a foreign key referencing species table
-ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id);
---Add column owner_id which is a foreign key referencing owners table
-ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owners(id);
---Modify your inserted animals so it includes the species_id value:
-UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
-UPDATE animals SET species_id = 1 WHERE species_id IS NULL;
-
---Modify your inserted animals so it includes the owner_id value:
-
-UPDATE animals SET owner_id = 1 WHERE name = 'Agumon';
-UPDATE animals SET owner_id = 2 WHERE name = 'Gabumon' OR name = 'Pikachu';
-UPDATE animals SET owner_id = 3 WHERE name = 'Devimon' OR name = 'Plantmon';
-UPDATE animals SET owner_id = 4 WHERE name IN ('Charmander', 'Squirtle', 'Blossom');
-UPDATE animals SET owner_id = 5 WHERE name IN ('Angemon', 'Boarmon');
  
 --What animals belong to Melody Pond?
 SELECT name, full_name 
