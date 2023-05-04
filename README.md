@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -45,16 +44,8 @@
 
 - **[Vet_clinic Database]**
 - **[animals table]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](is not available yet)
+- **[owners table]**
+- **[species table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,8 +99,6 @@ You can deploy this project using: **Not available**.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[owners table]**
-- [ ] **[vet table]**
 - [ ] **[visits table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
