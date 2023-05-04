@@ -46,6 +46,9 @@
 - **[animals table]**
 - **[owners table]**
 - **[species table]**
+- **[vets table]**
+- **[visits table]**
+- **[specializations table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +102,7 @@ You can deploy this project using: **Not available**.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[visits table]**
+- [ ] Add more queries.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
