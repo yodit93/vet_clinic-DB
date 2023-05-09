@@ -55,8 +55,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Schema diagram -->
-Schema diagram <a name="Schema-diagram" href="https://drawsql.app/teams/team-1-104/diagrams/vet-clinic">Link</a>
-<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/team-1-104/diagrams/vet-clinic/embed"></iframe>
+## Schema diagram <a name="Schema-diagram" href="https://drawsql.app/teams/team-1-104/diagrams/vet-clinic">Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
