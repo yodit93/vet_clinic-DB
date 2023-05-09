@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [Schema diagram](#Schema-diagram)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -49,6 +50,13 @@
 - **[vets table]**
 - **[visits table]**
 - **[specializations table]**
+- **[schema diagram]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Schema diagram -->
+Schema diagram <a name="Schema-diagram" href="https://drawsql.app/teams/team-1-104/diagrams/vet-clinic">Link</a>
+<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/team-1-104/diagrams/vet-clinic/embed"></iframe>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,6 +111,7 @@ You can deploy this project using: **Not available**.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add more queries.
+- [ ] Increase the performance of the queries.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
